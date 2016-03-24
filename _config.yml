@@ -1,2 +1,4 @@
 name: Fiona N
 markdown: kramdown
+
+permaling: /blog/:year/:month/:day/:title
