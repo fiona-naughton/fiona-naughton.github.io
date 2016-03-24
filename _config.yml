@@ -1,4 +1,5 @@
 name: Fiona N
+markdown: kramdown
 
 gems:
   - jekyll-feed
