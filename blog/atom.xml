@@ -1,5 +1,5 @@
 ---
-layout: feed
+
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -20,7 +20,7 @@ layout: feed
 			<link href="http://fiona-naughton.github.io{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
 			<id>http://fiona-naughton.github.io/{{ post.id }}</id>
-			<content type="html">{{ post.content | xml_escape }}</content>
+			<summary>First post: general introduction</summary>
 		</entry>
 	{% endfor %}
 

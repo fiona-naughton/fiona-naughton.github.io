@@ -1,12 +1,16 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 30px auto;
+    width: 40%;
+    color: #362200;
+    background-color: #F9F1EA; 
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    font-variant: small-caps
 }
 nav ul li, footer ul li {
     display: inline;
@@ -14,19 +18,23 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #2AD;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin-bottom: -0.5em;
+}
+h2 {
+    margin-top: -0.5em;
+    margin-bottom: -0.3em;
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+    font-size: 1.1em;
+    line-height: 1.2em;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -41,3 +49,20 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+img.kitty {
+    display: block;
+    max-height: 200px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.date {
+    font-style: italic;
+    color: #999;
+    font-size: 1em
+}
+
