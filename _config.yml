@@ -1,4 +1,10 @@
 name: Fiona N
 markdown: kramdown
 
-permaling: /blog/:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title
+
+gems:
+  - jekyll-feed
+
+feed:
+  path: blog/atom.xml
