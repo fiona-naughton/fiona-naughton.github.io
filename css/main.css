@@ -65,8 +65,7 @@ img.smallkitty {
     height: auto;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
+
 }
 img.kitty {
     display: block;
@@ -76,8 +75,7 @@ img.kitty {
     height: auto;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
+
 }
 
 img.mediumkitty {
@@ -88,8 +86,7 @@ img.mediumkitty {
     height: auto;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
+
 }
 
 img.largekitty {
@@ -100,8 +97,7 @@ img.largekitty {
     height: auto;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
+
 }
 
 img.largestkitty {
@@ -111,8 +107,7 @@ img.largestkitty {
     height: auto;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
+
 } 
 
 .date {
