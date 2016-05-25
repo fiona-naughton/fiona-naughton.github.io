@@ -1,8 +1,8 @@
 body {
     margin: 30px auto;
-    width: 40%;
-    color: #362200;
-    background-color: #F9F1EA; 
+    width: 60%;
+    color: #282828;
+    background-color: #F2F2F2; 
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 nav ul, footer ul {
@@ -32,6 +32,13 @@ h2 {
     margin-top: -0.5em;
     margin-bottom: -0.3em;
 }
+
+h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0em;
+    font-size: 1.7em;
+}
+
 p {
     font-size: 1.1em;
     line-height: 1.2em;
@@ -50,6 +57,17 @@ ul.posts li {
     list-style: none;
 }
 
+img.smallkitty {
+    display: block;
+    max-height: 150px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
 img.kitty {
     display: block;
     max-height: 200px;
@@ -58,7 +76,44 @@ img.kitty {
     height: auto;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
+
+img.mediumkitty {
+    display: block;
+    max-height: 250px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+img.largekitty {
+    display: block;
+    max-height: 300px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+img.largestkitty {
+    display: block;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+} 
 
 .date {
     font-style: italic;
