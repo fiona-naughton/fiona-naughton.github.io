@@ -1,8 +1,8 @@
 body {
     margin: 30px auto;
     width: 60%;
-    color: #282828;
-    background-color: #F2F2F2; 
+    color: #262626;
+    background-color: #E5E5E5; 
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 nav ul, footer ul {
@@ -36,12 +36,12 @@ h2 {
 h3 {
     margin-top: 1.5em;
     margin-bottom: 0em;
-    font-size: 1.7em;
+    font-size: 1.4em;
 }
 
 p {
-    font-size: 1.1em;
-    line-height: 1.2em;
+    font-size: 1em;
+    line-height: 1.3em;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -114,5 +114,15 @@ img.largestkitty {
     font-style: italic;
     color: #999;
     font-size: 1em
+}
+
+.aside {
+    max-width: 100%;
+    font-size: 0.9em;
+    width: auto;
+    height: auto;
+    border: 1px solid #262626;
+    margin: auto;
+    padding: 0.5em;
 }
 
