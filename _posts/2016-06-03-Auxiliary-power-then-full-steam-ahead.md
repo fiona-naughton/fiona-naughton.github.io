@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Auxiliary power, then full steam ahead!
-date: 2016-06-03
+date: 2016-06-04
 ---
 
 Nearly two weeks of coding down, about eleven to go! It's been a bit of a slow start, but now I'm starting to get into the swing of things. This post was originally going to be longer, but I've decided to split it, so unfortunately you don't get as many cats this week. On the plus side, the intended second half – the inaugural What I Learnt about Python This Week (witty alternative name pending) – should be up in the next couple of days, rather than the usual 1+ week! 
@@ -24,7 +24,7 @@ In Python, we store data in *variables*. Depending what it is, the value we stor
 A *class* is essentially a framework/container used to store a bunch of related variables (*attributes*) and functions (also attributes, more sepcifically *methods*) which can use or alter the data attributes. We can create different *instances* of a class, each with a particular set of attribute values; this allows us to keep track of different related set of values, and to more easily work with them using the accompanying methods.
 
 <br/> 
-![](/images/3PythonOverviewKitty.png){: .largestkitty} 
+<a href='/images/3PythonOverviewKitty.png'>![](/images/3PythonOverviewKitty.png){: .largestkitty}</a> 
 <br/> 
 
 ***
