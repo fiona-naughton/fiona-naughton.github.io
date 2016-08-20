@@ -10,7 +10,7 @@ Hello again! I was away most of last week, hence the delay for this post, but I'
 ![](/images/6SpaceKitty.png){: .kitty} 
 
 
-This post I'm going to talk about what I've been doing for the second part of my project: a container for dealing with Umbrella Sampling (US) simulations (if you can't remember what US is all about, you can go back and read about it in [this post]({% post_url 2016-05-25-What-is-this-MD-thing-anyway? %})). 
+This post I'm going to talk about what I've been doing for the second part of my project: a container for dealing with Umbrella Sampling (US) simulations (if you can't remember what US is all about, you can go back and read about it in [this post](http://fiona-naughton.github.io/blog/2016/05/25/What-is-this-MD-thing-anyway)). 
 
 Originally, I envisioned this as a more specific 'Umbrella Class' for storing the simulation for each umbrella window and the associated restraint constants, restrained values, etc. However, it was pointed out that a more general way of storing a collection of Universes and associated *metadata* could be useful in a range of situations, including for US. *Metadata* here will likely largely be other data describing a simulation, but not associated with individual frames (as for 'auxiliary' data) - like the value of the reaction coordinate restrained to in US.
 
